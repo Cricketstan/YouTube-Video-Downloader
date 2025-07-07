@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Downloader</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Downloader</h1>
+    <form method="POST">
+      <input type="url" name="url" placeholder="YouTube URL" required>
+      <select name="type">
+        <option value="video">Video</option>
+        <option value="audio">Audio (MP3)</option>
+      </select>
+      <button type="submit">Download</button>
+    </form>
+  </div>
+</body>
+</html>
